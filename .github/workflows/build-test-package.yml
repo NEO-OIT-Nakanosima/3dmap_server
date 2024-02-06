@@ -1,0 +1,9 @@
+name: build-test-package
+on: push
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welocome message
+        run: echo "Hello actions"
